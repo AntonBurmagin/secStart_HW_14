@@ -128,4 +128,23 @@ int main() {
     std::cout << "GameOver!" << std::endl;
     */
 
+    // 14.6.6
+    /*
+    int arr[5][5];
+    int number = 0;
+    for (int i = 0; i < 5; i++) {
+        for (int k = 0; k < 5; k++) {
+            arr[i][(4 - k) * (i % 2) + k * ((i + 1) % 2)] = number;
+            number++;
+        }
+    }
+
+    for (int i = 0; i < 5; i++) {
+        for (int k = 0; k < 5; k++) {
+            std::cout << arr[i][k] << "\t";
+        }
+        std::cout << std::endl;
+    }
+    */
+
 }
